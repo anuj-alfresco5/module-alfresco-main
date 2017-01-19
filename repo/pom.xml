@@ -47,6 +47,14 @@
             <type>amp</type>
         </dependency>
         -->
+        <dependency>
+        	<groupId>org.anuj.test</groupId>
+        	<artifactId>module-alfresco-webscripts</artifactId>
+        	<version>1.0-SNAPSHOT</version>
+        	<type>amp</type>
+        	<scope>system</scope>
+        	<systemPath>C:\Users\921189.INDIA\.m2\repository\org\anuj\test\module-alfresco-webscripts\1.0-SNAPSHOT\module-alfresco-webscripts-1.0-SNAPSHOT.amp</systemPath>
+        </dependency>
     </dependencies>
 
     <build>
@@ -84,6 +92,12 @@
                             <type>amp</type>
                         </overlay>
                         -->
+                        <!-- Added overlay for webscripts -->
+                         <overlay>
+                            <groupId>org.anuj.test</groupId>
+        					<artifactId>module-alfresco-webscripts</artifactId>
+                            <type>amp</type>
+                        </overlay>
                     </overlays>
                 </configuration>
             </plugin>
@@ -200,5 +214,5 @@
                 </plugins>
             </build>
         </profile>
-    </profiles>
+    </profiles>      
 </project>

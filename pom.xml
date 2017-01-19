@@ -85,5 +85,6 @@
     <!--<module>solr</module>-->
     <module>share</module>
     <!--<module>runner</module>-->
+    <module>../module-alfresco-webscripts</module>
   </modules>
 </project>
